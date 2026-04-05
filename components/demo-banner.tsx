@@ -9,14 +9,14 @@ export function DemoBanner() {
       <span className="hidden sm:inline">Sessions expire after 30 minutes</span>
       <span className="hidden sm:inline text-foreground/20">|</span>
       <Link
-        href="https://posthook.io/app/signup?utm_source=nextjs-starter-live&utm_medium=demo&utm_campaign=starter"
+        href="https://posthook.io/app/signup?utm_source=nextjs-posthook-ai-review&utm_medium=demo&utm_campaign=starter"
         className="font-bold underline underline-offset-2 hover:text-foreground/70"
       >
         Sign up for Posthook
       </Link>
       <span className="hidden sm:inline text-foreground/20">|</span>
       <Link
-        href="https://github.com/posthook/nextjs-starter"
+        href="https://github.com/posthook/nextjs-posthook-scheduling"
         className="font-bold underline underline-offset-2 hover:text-foreground/70 inline-flex items-center gap-1"
       >
         <GithubIcon className="size-3" />

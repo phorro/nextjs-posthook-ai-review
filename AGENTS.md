@@ -1,26 +1,29 @@
-# Posthook Next.js Starter — Live Demo
+# Posthook AI Review App
 
 ## What This Is
-Live demo of the [posthook/nextjs-starter](https://github.com/posthook/nextjs-starter) patterns.
-Deployed at nextjs-starter.posthook.io. Built with Next.js 16 App Router,
-Postgres (Drizzle ORM), OpenAI, and shadcn/ui.
-
-This repo = starter base + demo layer (sessions, seeding, UI, rate limits).
+Human-in-the-loop AI content review app. AI generates drafts, Posthook schedules
+reminders and expirations, reviewers approve/reject/snooze. Deployed at
+nextjs-starter.posthook.io. Built with Next.js 16 App Router, Postgres (Drizzle ORM),
+OpenAI, and shadcn/ui.
 
 ## Architecture
 
-### Starter base (shared with posthook/nextjs-starter)
+### Scheduling layer
 - `lib/posthook.ts` — Posthook client (lazy singleton for build safety)
-- `lib/db/` — Drizzle ORM + Postgres
-- `lib/store.ts` — Data access layer (session-scoped queries, `inArray` conditional updates)
 - `lib/tasks.ts` — Task state machine and Posthook scheduling
 - `lib/types.ts` — All TypeScript types (one payload type per webhook route)
 - `app/api/webhooks/remind/route.ts` — Reminder callback handler
 - `app/api/webhooks/expire/route.ts` — Expiration callback handler
 - `app/api/tasks/` — Task CRUD API
 
-### Demo layer (this repo only)
+### AI layer
 - `lib/ai.ts` — OpenAI generation with mock fallback
+
+### Data layer
+- `lib/db/` — Drizzle ORM + Postgres
+- `lib/store.ts` — Data access layer (session-scoped queries, `inArray` conditional updates)
+
+### Demo layer
 - `lib/demo/session.ts` — Session cookie management (30min TTL)
 - `lib/demo/seed.ts` — Pre-written seed tasks per session
 - `lib/demo/limits.ts` — Rate limiting (10 tasks per session)

@@ -50,7 +50,7 @@ export default function RootLayout({
         {children}
         <footer className="mt-auto py-4 text-center text-xs text-muted-foreground">
           <a
-            href="https://posthook.io?utm_source=nextjs-starter-live&utm_medium=demo&utm_campaign=starter"
+            href="https://posthook.io?utm_source=nextjs-posthook-ai-review&utm_medium=demo&utm_campaign=starter"
             className="hover:text-foreground"
           >
             © 2026 Posthook, Inc.
